@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Feedback:</h1>
+    <form action="/action.php"> <!--the action connects to backend-->
+        <span><b>First Name: </b></span><input type="text" placeholder="First Name">
+        <br><br>   
+        <span><b>Last Name: </b></span><input type="text" placeholder="Last Name">
+        <br><br>
+        <b>Rate my Portfolio (out of 5):</b>
+        <label for="101">
+            <input type="radio" value="1" name="star" id="101">⭐
+        </label>
+        <label for="102">
+            <input type="radio" value="2" name="star" id="102">⭐⭐
+        </label>
+        <label for="103">
+            <input type="radio" value="3" name="star" id="103">⭐⭐⭐
+        </label>
+        <label for="104">
+            <input type="radio" value="4" name="star" id="104">⭐⭐⭐⭐
+        </label>
+        <label for="105">
+            <input type="radio" value="5" name="star" id="105">⭐⭐⭐⭐⭐
+        </label>
+        <br><br>
+        <b>Subjects:</b>
+        <label for="m">
+            <input type="checkbox" value="math" name="subject" id="m">Math
+        </label>
+        <label for="p">
+            <input type="checkbox" value="phy" name="subject" id="p">Phy
+        </label>
+        <label for="c">
+            <input type="checkbox" value="chem" name="subject" id="c">Chem
+        </label>  
+        <label for="b">
+            <input type="checkbox" value="bio" name="subject" id="b">Bio
+        </label>
+        <br><br>
+        <b>City:</b>
+        <select name="city">
+            <option value="Kol">KOL</option>
+            <option value="Bbs">BBS</option>
+            <option value="Blr">BLR</option>
+        </select>
+        <br><br>
+        <b>Feebdack:</b>
+        <textarea name="textarea" id="feed" placeholder="Enter feedback" rows="5"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">      
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+body{
+    background-image: url(/Portfolio/mainback.jpg);
+    background-size: cover;
+}
+header{
+    background-color: rgba(29, 27, 27, 0.285);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+}
